@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    background-color: #f9f9f9; /* Adiciona uma cor de fundo */
+    font-family: 'DM Sans', sans-serif; /* Adiciona uma fonte personalizada */
+    color: #333; /* Adiciona uma cor de texto personalizada */
+}
+
+.titulo-tarefa {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .descricao-tarefa {
+    font-size: 16px;
+  }
+  
+  .data-tarefa {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .voltar {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
