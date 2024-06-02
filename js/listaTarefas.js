@@ -18,13 +18,8 @@ tarefas.forEach(function(tarefa, index) {
   var checkbox = divTarefa.querySelector('input[type="checkbox"]');
   checkbox.addEventListener('change', function() {
     if (this.checked) {
-      // Remove a tarefa do DOM se o checkbox estiver marcado
       divTarefa.remove();
-
-      // Remove a tarefa do array de tarefas
       tarefas.splice(index, 1);
-
-      // Atualiza as tarefas no localStorage
       localStorage.setItem('tarefas', JSON.stringify(tarefas));
     }
   });
@@ -33,5 +28,5 @@ tarefas.forEach(function(tarefa, index) {
 var voltarImg = document.querySelector('.voltar');
 
 voltarImg.addEventListener('click', function() {
-    window.location.href = '../pages/index.html';
+    window.location.href = '../index.html';
 });

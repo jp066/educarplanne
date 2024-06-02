@@ -9,9 +9,9 @@ criarTarefaButton.addEventListener('click', () => {
 
     document.body.appendChild(overlay);
 
-    window.location.href = 'criarTarefa.html';
+    window.location.href = '../pages/criarTarefa.html';
 });
 
 document.querySelector('.button-tarefas').addEventListener('click', function() {
-    window.location.href = 'listaTarefas.html';
+    window.location.href = '../pages/listaTarefas.html';
   });
